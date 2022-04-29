@@ -1,0 +1,27 @@
+body {
+    padding-top:3%;
+    padding-left:15%;
+    padding-right:15%
+}
+
+.navbar {
+    font-family:"Avenir next",sans-serif;
+    font-weight:500;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+
+.intro-text {
+    margin-top:5%;
+    font-family: Georgia, serif;
+    letter-spacing: 1px;
+}
+.annie-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.annie-link:hover {
+    background-color: #FFEAD6;
+    color:inherit;
+}
