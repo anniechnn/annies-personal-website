@@ -5,6 +5,7 @@ body {
 }
 
 .intro-explanation{
+    font-family:"Avenir next",sans-serif;
     font-size:18px;
 }
 
@@ -16,21 +17,58 @@ body {
 }
 
 .intro-text {
-    margin-top:5%;
+    margin-top:10%;
     font-family: Georgia, serif;
 }
+
 .annie-link {
     text-decoration: none;
     color: inherit;
 }
 
 .annie-link:hover {
-    background-color: #FFEAD6;
-    color:inherit;
+    background-color: #FBEDDA;
+    color: inherit;
 }
 
+.connect {
+    margin-top:10%;
+    text-align:center;
+}
 .connect-text {
-    font-family:"Avenir next", sans-serif;
-    font-size:23px;
-    font-weight:600;
+    font-family: "Avenir next", sans-serif;
+    font-size: 25px;
+    line-height:36px;
+    font-weight: 600;
+}
+
+#icon {
+    font-size: 37px;
+    color: black;
+    text-decoration: none;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: -7px;
+}
+
+.source-code {
+    position:absolute;
+    bottom:0;
+    text-align: center;
+    font-family: "Avenir next", sans-serif;
+}
+
+.github {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+}
+
+.github:hover {
+    background-color:#FBEDDA;
+    color: inherit;
+}
+
+.picture {
+    margin-top:10%;
 }
