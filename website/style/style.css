@@ -1,7 +1,7 @@
-body {
+.wrap {
     padding-top:3%;
-    padding-left:15%;
-    padding-right:15%
+    padding-left:13%;
+    padding-right:13%;
 }
 
 .intro-explanation{
@@ -32,28 +32,37 @@ body {
 }
 
 .connect {
-    margin-top:10%;
     text-align:center;
 }
+
+.bottom {
+    position:fixed;
+    width:100%;
+    padding:2%;
+    margin-top:10%;
+    background-color: #FBEDDA;
+    bottom: 0;
+}
+
 .connect-text {
     font-family: "Avenir next", sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     line-height:36px;
     font-weight: 600;
 }
 
 #icon {
-    font-size: 37px;
+    font-size: 35px;
     color: black;
     text-decoration: none;
     margin-left: 7px;
     margin-right: 7px;
-    margin-top: -7px;
 }
 
 .source-code {
-    position:absolute;
-    bottom:0;
+    font-size:17px;
+    margin-top:15px;
+    margin-bottom:0px;
     text-align: center;
     font-family: "Avenir next", sans-serif;
 }
@@ -65,10 +74,27 @@ body {
 }
 
 .github:hover {
-    background-color:#FBEDDA;
     color: inherit;
 }
 
 .picture {
+    float:left;
     margin-top:10%;
+    margin-right:10%;
+}
+
+.intro-header {
+    margin-top: 12.5%;
+    font-family: Georgia,serif;
+    color:#418F3D;
+}
+
+.introduction {
+    font-size:18px;
+    font-family: "Avenir next", sans-serif;
+}
+
+.hobby {
+    font-size:18px;
+    font-family: "Avenir next", sans-serif;
 }
