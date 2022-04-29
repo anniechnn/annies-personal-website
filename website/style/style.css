@@ -4,6 +4,10 @@ body {
     padding-right:15%
 }
 
+.intro-explanation{
+    font-size:18px;
+}
+
 .navbar {
     font-family:"Avenir next",sans-serif;
     font-weight:500;
@@ -14,7 +18,6 @@ body {
 .intro-text {
     margin-top:5%;
     font-family: Georgia, serif;
-    letter-spacing: 1px;
 }
 .annie-link {
     text-decoration: none;
@@ -24,4 +27,10 @@ body {
 .annie-link:hover {
     background-color: #FFEAD6;
     color:inherit;
+}
+
+.connect-text {
+    font-family:"Avenir next", sans-serif;
+    font-size:23px;
+    font-weight:600;
 }
