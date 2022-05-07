@@ -121,14 +121,14 @@
 }
 
 .skills {
-    margin-top: -4%;
+    margin-top: -4.5%;
 }
 
 .extras {
     margin-top: -10%;
 }
 
-ul {
+.technologies{
     columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2;
