@@ -125,7 +125,7 @@
 }
 
 .extras {
-    margin-top: -10%;
+    margin-top: -9.5%;
 }
 
 .technologies{
@@ -136,4 +136,19 @@
 
 #about {
     font-size:32px;
+}
+
+.projects {
+    margin-top: 6.5%;
+}
+
+.class-name {
+    font-size:32px;
+    color: #024B30;
+    font-family: Georgia, serif;
+}
+
+.project {
+    font-family: "Avenir next", sans-serif;
+    font-size: 17px;
 }
