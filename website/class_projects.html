@@ -14,10 +14,10 @@
     <title>Projects</title>
 </head>
 
-<body style="background-color: #FFF5E5">
+<body>
     <div class="wrap">
         <nav class="navbar navbar-expand-sm navbar-light">
-            <a class="navbar-brand" href="/website/index.html">ANNIE CHEN</a>
+            <a class="navbar-brand" style="font-size:1rem" href="/website/index.html">ANNIE CHEN</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -36,9 +36,10 @@
                 </ul>
             </div>
         </nav>
+    </div>
     <div class = "projects">
-        <div class = "class">
-            <p class="fw-bold class-name">EECS 485 - Web Systems</p>
+        <div class = "class-blue">
+            <p class="class-name">EECS 485: Web Systems</p>
             <div class = "project">
                 <p class = "project-name">Search Engine</p>
                 <ul class="project-items">
@@ -90,7 +91,7 @@
             </div>
         </div>
             <div class = "class">
-                <p class="fw-bold class-name">EECS 370 - Intro to Computer Organization</p>
+                <p class="class-name">EECS 370 - Intro to Computer Organization</p>
                 <div class="project">
                     <p class = "project-name">Cache Simulator</p>
                     <ul class="project-items">
@@ -106,7 +107,13 @@
                     <p class = "project-name">Pipelined Simulator</p>
                     <ul class="project-items">
                         <li>
-                            <p></p>
+                            <p>Modified previous project's single-cycle assembler into a pipeline.</p>
+                        </li>
+                        <li>
+                            <p>Pipeline registers handled information appropriately before forwarding to the next stage.</p>
+                        </li>
+                        <li>
+                            <p>Handled data hazards through implementation of internal forwarding and detect-and-stall.</p>
                         </li>
                     </ul>
                 </div>
@@ -120,21 +127,130 @@
                         <li>
                             <p>Created a simulator of the LC2K ISA with a given machine code file as input.</p>
                         </li>
-                        <li>Wrote an LC2K assembly program that multiplies two positive 15-bit numbers.</li>
+                        <li>
+                            <p>Wrote an LC2K assembly program that multiplies two positive 15-bit numbers.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class = "class-beige">
+                <p class="class-name">EECS 281 - Data Structures and Algorithms</p>
+                <div class="project">
+                    <p class="project-name">Drone Delivery</p>
+                    <ul class="project-items">
+                        <li>
+                            <p>Implemented a program that utilizes the Traveling Salesman Problem to handle the need of efficient drone deliveries.</p>
+                            <p></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <p class="project-name">Log Master</p>
+                    <ul class="project-items">
+                        <li>
+                            <p>Implemented a program that reads a series of log entries from a master log file and constructs an excerpt list from them.</p>
+                        </li>
+                        <li>
+                            <p>Program enters an interactive mode where the user can perform keyword, category, and timestamp searches on the excerpt list.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <p class="project-name">Star Wars</p>
+                    <ul class="project-items">
+                        <li>
+                            <p>Implemented a program that reads in data about a series of batallion deployments from the Siths and Jedis.</p>
+                        </li>
+                        <li>
+                            <p>The program puts the deployments into effect, starts battles, and updates the casualties for both sides until one is victorious.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <p class="project-name">Countess</p>
+                    <ul class="project-items">
+                        <li>
+                            <p>Implemented a program that navigates Marco through Louser's castle of matrices in order to save Countess Cherry.</p>
+                        </li>
+                        <li>
+                            <p><p>The navigation algorithm accounted for unwalkable cells, walls, and warp pipes that take Marco to another room. </p></p>
+                        </li>
                     </ul>
                 </div>
             </div>
             <div class = "class">
-                <p class="fw-bold class-name">EECS 281 - Data Structures and Algorithms</p>
+                <p class="class-name">EECS 280 - Programming and Intro Data Structures</p>
+                <div class="project">
+                    <p class="project-name">Machine Learning</p>
+                    <ul class="project-items">
+                        <li>
+                            <p>Utilized machine learning to classify topics of posts on an online forum.</p>
+                        </li>
+                        <li>
+                            <p><p>The method used for machine learning is a simplified version of the Bernoulli Naive Bayes Classifier.</p></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <p class="project-name">Euchre</p>
+                    <ul class="project-items">
+                        <li>
+                            <p>Implemented an interactive simulation of the card game Euchre.</p>
+                        </li>
+                        <li>
+                            <p>Features include playing tricks, dealing card, scoring, and deck shuffling.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <p class="project-name">Image Resizing</p>
+                    <ul class="project-items">
+                        <li>
+                            <p>Implemented a program that resizes an inputted image to specified dimensions using the seam carving technique.</p>
+                        </li>
+                        <li>
+                            <p>Program outputs a file with the newly resized image.</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class = "class">
-                <p class="fw-bold class-name">EECS 280 - Programming and Intro Data Structures</p>
-            </div>
-            <div class="class">
-                <p class="fw-bold class-name">EECS 183 - Intro to Computer Science</p>
+            <div class="class-last">
+                <p class="class-name">EECS 183 - Intro to Computer Science</p>
+                <div class="project">
+                    <p class="project-name">Battleship</p>
+                    <ul class="project-items">
+                        <li>
+                            <p>Programmed an interactive game of Battleship with the option of having a second user or bot as the other player.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <p class="project-name">Caesar Cipher</p>
+                    <ul class="project-items">
+                        <li>
+                            <p>Implemented an encoder and decoder that utilizes Caesar Cipher.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <p class="project-name">Rock-Paper-Scissors</p>
+                    <ul class="project-items">
+                        <li>
+                            <p>Programmed an interactive game of Rock-Paper-Scissors with a computer bot as the other player.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <p class="project-name">Cupcakes</p>
+                    <ul class="project-items">
+                        <li>
+                            <p>Implemented a program that helps the user purchase the correct amount of ingredients to make cupcakes.</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
+    <hr class="line">
     <div class="bottom" style="position:relative">
         <div class="connect">
             <p class="connect-text">Lets connect!</p>
